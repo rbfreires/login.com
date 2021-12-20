@@ -21,7 +21,7 @@
 <body>
 
     <div class="container-fluid bg">
-        <form action="login.php" action="POST">
+        <form action="login.php" method="POST">
             <h2 class="titulo_form">Faça seu login aqui!</h2>
             <div class="form-group">
                 <label for="">Usuário</label>
@@ -30,7 +30,7 @@
             </div>
             <div class="form-group">
                 <label for="">Senha</label>
-                <input type="text" name="senha" id="senha" class="form-control" placeholder="Digite a senha..." aria-describedby="helpId">
+                <input type="password" name="senha" id="senha" class="form-control" placeholder="Digite a senha..." aria-describedby="helpId">
                 <small id="helpId" class="text-muted">Sua senha é pessoal e intransferível.</small>
             </div>
             <button type="submit" class="btn btn-primary">Entrar</button>
