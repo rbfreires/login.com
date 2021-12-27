@@ -4,14 +4,45 @@
     font-family: 'Poppins', sans-serif;
 }
 
+nav {
+    background: #333;
+}
+
+.topo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navfluid {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.title_navbar {
+    font-weight: normal;
+    font-size: 3rem;
+    color: #fff;
+}
+
+fieldset {
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 5px 15px;
+    /* background: rgb(255, 200, 0); */
+    background: #333;
+}
+
 form {
-    width: 300px;
+    color: #fff;
+    width: 350px;
     height: 450px;
-    border: 1px solid rgb(255, 255, 255);
+    /* border: 2px solid rgb(247, 247, 247); */
     /* box-shadow: 5px 5px rgba(61, 61, 61, 0.4); */
     border-radius: 10px;
-    padding: 0px 15px 15px 15px;
-    background: rgb(255, 200, 0);
+    padding: 15px;
+    /* background: rgb(255, 200, 0); */
+    /* background: rgb(247, 247, 247); */
 }
 
 .bg {
@@ -21,14 +52,15 @@ form {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 2, 131);
+    background-color: rgb(255, 255, 255);
 }
 
 .titulo_form {
     margin-bottom: 30px;
     margin-top: 20px;
-    color: blue;
-    font-size: 2rem;
+    color: #333;
+    font-size: 2.2rem;
+    font-weight: 900;
 }
 
 .painel_login {
